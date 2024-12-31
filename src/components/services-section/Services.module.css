@@ -1,0 +1,48 @@
+.services{
+    width: 100%;
+    background-color: var(--background-lightestgray);
+    text-align: center;
+    padding: 9.625rem 2.5rem 10rem 2.5rem;
+}
+
+.services h1{
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.services span{
+    color: var( --background-gray);
+
+}
+
+.services p{
+    font-size: 16.73px;
+    line-height: 28px;
+    margin-bottom: 80px;
+}
+
+.servicesCardDiv{
+    width: 100%;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* ye yaha ka nh hai */
+
+@media(max-width: 768px){
+    .servicesCardDiv{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 390px){
+    .servicesCardDiv{
+        grid-template-columns: repeat(1, 1fr);   
+    }
+
+    .services{
+        padding:  9.625rem 0.5rem 10rem 0.5rem;
+    }
+}

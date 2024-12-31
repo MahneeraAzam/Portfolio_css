@@ -1,0 +1,124 @@
+.contactUs{
+    width: 100%;
+    background-color: var(  --background-lightestgray);
+    padding: 9.625rem 9.1875rem 10rem 9.1875rem;
+    text-align: center;
+}
+
+.contactUs h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1.125rem;
+}
+
+.contactUs span{
+    color: var(   --background-gray);
+}
+
+.contactLeftDivContainer h6{
+    color: var(   --background-gray);
+}
+
+.contactUs p{
+    font-size: 1.0456rem;
+    line-height: 1.75rem;
+    margin-bottom: 6rem;
+}
+
+.contactUsBottomDiv{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    gap: 7.5rem;
+}
+
+.contactLeftDiv{
+    width: 300px;
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+}
+
+.contactLeftDivText{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    text-align: start;
+}
+
+.contactLeftDivText :nth-child(2){
+    color: rgb(47, 43, 43);
+}
+
+.contactLeftDivText :nth-child(3){
+    color: var(--logo-color);
+}
+
+.contactLeftDivContainer{
+    display: flex;
+    gap: 16px;
+}
+
+
+.contactRightDiv{
+    width: 650px;
+}
+
+.contactRightDiv form{
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+
+.topInputDiv{
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+
+.topInputDiv input{
+    width: 320px;
+}
+
+
+.inputDetails{
+    padding: 15px 0 15px 12px;
+    font-size: 15px;
+    background-color: var(--background-gray);
+    border-radius: 8px;
+}
+
+.inputBtn{
+    background-color: var( --button-color);
+    width: 178px;
+    height: 52px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--hover-button-color);
+    }
+}
+
+@media(max-width: 768px){
+    .contactUs{
+        padding: 160px 32px 160px 32px;
+    }
+
+    .contactUsBottomDiv{
+        flex-direction: column;
+        gap: 120px;
+    }
+}
+
+@media(max-width: 390px){
+    .contactRightDiv{
+        width: 100%;
+    }
+
+    .topInputDiv{
+        flex-direction: column;
+        gap: 25px;
+    }
+}

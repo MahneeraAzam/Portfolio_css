@@ -2,20 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root{
+  --background-gray : #424949;
+  --background-lightgray: #a6acaf;
+  --background-lightestgray: #979a9a;
+  --logo-color: #f8f9f9;
+  --button-color: #808b96;
+  --hover-button-color: #abb2b9;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+html, body{
+  color: #f4f6f6;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }

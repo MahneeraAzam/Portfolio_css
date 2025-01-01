@@ -9,10 +9,6 @@ import Services from "@/components/services-section/Services";
 import Testimonials from "@/components/testimonial/Testimonials";
 
 
-
-
-
-
 export default function Home() {
   return (
 <>

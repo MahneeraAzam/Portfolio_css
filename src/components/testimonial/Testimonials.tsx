@@ -1,14 +1,10 @@
 "use client"
 import React from 'react'
 import styles from './Testimonials.module.css'
-<<<<<<< HEAD
 import { caveatFont} from '@/font'
-=======
-import { caveatFont } from '@/font'
->>>>>>> bdcd48b5b383c2abaf8100bdfd363119e0c71a0d
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
-import TestimonialCard from './testimonial-card/TestimonialCard'
+import TestimonialCard from './testimonial-card/TestimonialCard'  
 
 
 function Testimonial() {
